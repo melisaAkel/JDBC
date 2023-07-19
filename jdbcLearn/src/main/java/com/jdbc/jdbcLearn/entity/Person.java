@@ -1,8 +1,14 @@
 package com.jdbc.jdbcLearn.entity;
 
+import javax.persistence.entity;
+
 import java.util.Date;
 
+@entity
+
 public class Person {
+    @Id
+
     private int id;
     private String name;
     private String location;
