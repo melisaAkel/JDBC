@@ -19,6 +19,7 @@ public class JdbcLearnApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 
 		SpringApplication.run(JdbcLearnApplication.class, args);
+		
 	}
 
 	@Override
